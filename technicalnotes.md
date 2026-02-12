@@ -211,4 +211,3 @@ also: numerical overflow in integer accumulation, handling of bias vectors, fusi
 - why does per-token dynamic quantization work for activations but not weights?
 
 weights are static, optimize representation once. activations have dynamic range. quantization error for weights is systematic (biased); for activations it's stochastic (averages out across tokens).
-```
